@@ -1,0 +1,1259 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-api",
+    "entrypoint": "connect_app:app"
+  },
+  "python": {
+    "version": "3.11.15",
+    "package_manager": {
+      "name": "pip",
+      "version": "26.2.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "environment": {
+    "python": {
+      "requires": "~=3.11.0"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "20783f1a01a95336a4b9f9fd06fd4459"
+    },
+    ".agents/AGENTS.md": {
+      "checksum": "33d4d40ca6883be80ec84cc824e0d35f"
+    },
+    ".cg-docs/active-state/current.json": {
+      "checksum": "462ecfc653b3dcd0cca98498fdde8b41"
+    },
+    ".cg-docs/archive/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/brainstorms/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/brainstorms/2026-08-19-global-survey-testing-application.md": {
+      "checksum": "f622eec0f9eba939199bfa96cece216e"
+    },
+    ".cg-docs/plans/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/plans/2026-08-19-global-survey-question-testing-application.md": {
+      "checksum": "ee12e6f939c94e7a782c74eb4585c7b8"
+    },
+    ".cg-docs/reviews/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/bugs/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/build-errors/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/data-quality/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/environment-issues/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/git-workflows/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/performance-issues/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/solutions/testing-patterns/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/strategy/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/work-reports/.gitkeep": {
+      "checksum": "82beeb51c14e6607e99649dd606b0c46"
+    },
+    ".cg-docs/work-reports/2026-08-19-global-survey-question-testing-application.md": {
+      "checksum": "311588be13066ee5ac869bf526f918ac"
+    },
+    ".claude/CLAUDE.md": {
+      "checksum": "dfa963c01981cc60a04c404d75e69249"
+    },
+    ".compound-gpid/managed-files.json": {
+      "checksum": "51b3a5bb7f72c1263755f5ac4f5da6e1"
+    },
+    ".env.example": {
+      "checksum": "6c77155a5652ec3d069bfc65e1b58582"
+    },
+    ".github/copilot-instructions.md": {
+      "checksum": "d06c87056accd33bc561de86cf627415"
+    },
+    ".gitignore": {
+      "checksum": "67f3e3fac05c9d6a38a5d1e813bb802d"
+    },
+    ".kilo/AGENTS.md": {
+      "checksum": "4342f86ee60077e5a1db58943c25937d"
+    },
+    ".kilo/agents/cg-adversarial.md": {
+      "checksum": "fb1659383afb5852c3fdc0fb572e021c"
+    },
+    ".kilo/agents/cg-architecture.md": {
+      "checksum": "a2ae5277c8568c2268677b189c814c0b"
+    },
+    ".kilo/agents/cg-code-quality.md": {
+      "checksum": "3da2eb7ff8ae62ac9b27f5977f2226f4"
+    },
+    ".kilo/agents/cg-data-quality.md": {
+      "checksum": "44a4281aa5a78f58d8f03d09012c659c"
+    },
+    ".kilo/agents/cg-documentation.md": {
+      "checksum": "6735c5a245964451933b14353f7bf28e"
+    },
+    ".kilo/agents/cg-fix-problems.md": {
+      "checksum": "0a35d43188794a07e88e64b34badd323"
+    },
+    ".kilo/agents/cg-learnings-researcher.md": {
+      "checksum": "659bbb6e89f97c4ab2df6abb206b400e"
+    },
+    ".kilo/agents/cg-performance.md": {
+      "checksum": "84ba5200b6338783ebbed452134d7458"
+    },
+    ".kilo/agents/cg-plan-critic.md": {
+      "checksum": "4667e801446c15d445a11a30aeaa9d3f"
+    },
+    ".kilo/agents/cg-project-scanner.md": {
+      "checksum": "c5f3413079f38a2f66782c3a324ac2ba"
+    },
+    ".kilo/agents/cg-release-scanner.md": {
+      "checksum": "30d7f9c79754f441645971f47aafe1ee"
+    },
+    ".kilo/agents/cg-reproducibility.md": {
+      "checksum": "c4983fe09a5bd5ac9dd31ce2286eda4c"
+    },
+    ".kilo/agents/cg-roadmap-view.md": {
+      "checksum": "24b5822ec6d8d0f339b9357675727d7c"
+    },
+    ".kilo/agents/cg-roadmap.md": {
+      "checksum": "1f4bee66dbdb990147d6d08352031095"
+    },
+    ".kilo/agents/cg-testing.md": {
+      "checksum": "70c5e38d7598067dc0c1e164ec80be08"
+    },
+    ".kilo/agents/cg-version-control.md": {
+      "checksum": "6735315b8939e58086e4ca3b9e1a3774"
+    },
+    ".kilo/agents/cg-wiki.md": {
+      "checksum": "ae91155fd5c40abcbdababdd5b150da1"
+    },
+    ".kilo/agents/cr-academic-writing.md": {
+      "checksum": "91b6c9a1dc857e03e4bf14f398d0b17c"
+    },
+    ".kilo/agents/cr-econometric-reasoning.md": {
+      "checksum": "2ba4af8430cf59a974c447c2dcd61bb9"
+    },
+    ".kilo/agents/cr-identification-audit.md": {
+      "checksum": "0f752f212d2734fcd02e7b6d121d7628"
+    },
+    ".kilo/agents/cr-mathematical-verification.md": {
+      "checksum": "fc002a8db8e5459937f0a8215eb3d6da"
+    },
+    ".kilo/agents/cr-measurement-integrity.md": {
+      "checksum": "4875c759c5bf77f71b5e9df4634e1317"
+    },
+    ".kilo/agents/cr-ml-methodology.md": {
+      "checksum": "b55eeda9ebbd61d07450132af0138cf9"
+    },
+    ".kilo/agents/cr-provenance-audit.md": {
+      "checksum": "de5c3c2252d6cc28d41aefb8c499feca"
+    },
+    ".kilo/agents/cr-publication-output.md": {
+      "checksum": "acd3a0374c915dfd124466b250a76bc8"
+    },
+    ".kilo/agents/cr-replication-package.md": {
+      "checksum": "a5ca58806406f3c2c243290b80592cf7"
+    },
+    ".kilo/agents/cr-research-integrity.md": {
+      "checksum": "a789c3e342cddbff688b53ccfe9d36a9"
+    },
+    ".kilo/agents/cr-specification-analysis.md": {
+      "checksum": "d369330d37f18bacb637445811b9d48b"
+    },
+    ".kilo/commands/cg-brain-rebuild.md": {
+      "checksum": "e175752163c5526c6a06c763bc3b47bb"
+    },
+    ".kilo/commands/cg-brainstorm.md": {
+      "checksum": "df1a8292fb6c9261c39f7ef9daa70f88"
+    },
+    ".kilo/commands/cg-commit-push-pr.md": {
+      "checksum": "5c7ba5170aab391322169a475f2af38f"
+    },
+    ".kilo/commands/cg-compound-refresh.md": {
+      "checksum": "b8dffbf6b9ea8f4001b881e596a036aa"
+    },
+    ".kilo/commands/cg-compound.md": {
+      "checksum": "a57bcc78b6836904835cae9a44deaf31"
+    },
+    ".kilo/commands/cg-devtag.md": {
+      "checksum": "ed044692dd388199836bffc7e21d4f3a"
+    },
+    ".kilo/commands/cg-diagnose.md": {
+      "checksum": "2f9591fd4f2fb870afad0033cb25ef19"
+    },
+    ".kilo/commands/cg-fix-problems.md": {
+      "checksum": "847dd08f10a09e19d1eda21aa175b22c"
+    },
+    ".kilo/commands/cg-fix-triage.md": {
+      "checksum": "345a0a82047021e62b202105cb725270"
+    },
+    ".kilo/commands/cg-fixbug.md": {
+      "checksum": "fe65b6ae9dbf01aa74db333184967603"
+    },
+    ".kilo/commands/cg-ideate.md": {
+      "checksum": "eaa57ca336450cce94d5a219e973284d"
+    },
+    ".kilo/commands/cg-issues.md": {
+      "checksum": "dad0be90638b22c9ead21c47357ec97c"
+    },
+    ".kilo/commands/cg-plan-review.md": {
+      "checksum": "9d5135e3e68943c2d2b05052bc5035fa"
+    },
+    ".kilo/commands/cg-plan.md": {
+      "checksum": "5f158e24dbc49fa769a06c95dc21a76a"
+    },
+    ".kilo/commands/cg-release.md": {
+      "checksum": "16476075d98a62db6f4dc197133b414d"
+    },
+    ".kilo/commands/cg-render-doc.md": {
+      "checksum": "fe78a814d0d7246a7ab290aa62d3a567"
+    },
+    ".kilo/commands/cg-resume.md": {
+      "checksum": "5a8bf51b23645062e640368658beb9f6"
+    },
+    ".kilo/commands/cg-review-repos.md": {
+      "checksum": "af7bd0a6a28b5e4b64486d328f8326e9"
+    },
+    ".kilo/commands/cg-review.md": {
+      "checksum": "44176177a4453d9d790c8b659bde6330"
+    },
+    ".kilo/commands/cg-roadmap-view.md": {
+      "checksum": "1c91d409a62489efea8bc78512aac19f"
+    },
+    ".kilo/commands/cg-setup.md": {
+      "checksum": "623d2c9aaf6a9877984a0ddcf4a1021f"
+    },
+    ".kilo/commands/cg-strategy.md": {
+      "checksum": "ce30d2d2821d55e19102d02e0118fda6"
+    },
+    ".kilo/commands/cg-token-audit.md": {
+      "checksum": "007eac0a7a500950aef9f22e1ae76273"
+    },
+    ".kilo/commands/cg-verify-pr.md": {
+      "checksum": "7054c5dea6381b829de96144aca7207f"
+    },
+    ".kilo/commands/cg-wiki.md": {
+      "checksum": "30d5a9b62f7d05cb6e6d81ae4a3ba37d"
+    },
+    ".kilo/commands/cg-work.md": {
+      "checksum": "6ff1e99fcdb18de708c7ebabac10f631"
+    },
+    ".kilo/commands/cr-brainstorm.md": {
+      "checksum": "be5d012d9bdc496efdc73b1e8bf138cb"
+    },
+    ".kilo/commands/cr-compound.md": {
+      "checksum": "8ef40ad21bc9feb1f24b4a4fbcffc48f"
+    },
+    ".kilo/commands/cr-plan.md": {
+      "checksum": "698cf9f741a56a212f4b1a7e48ce8c81"
+    },
+    ".kilo/commands/cr-review.md": {
+      "checksum": "b9c2eed5bcc1e5ddb53bf66b82caeaeb"
+    },
+    ".kilo/commands/cr-work.md": {
+      "checksum": "655bf5ecb64a901d121407719d0d8911"
+    },
+    ".kilo/commands/resume-templates.md": {
+      "checksum": "3912717c8b1c1e230cc078cd47843c5f"
+    },
+    ".kilo/commands/setup-templates.md": {
+      "checksum": "8397be24a65477d743ba29b10b9c4439"
+    },
+    ".kilo/instructions/latex.instructions.md": {
+      "checksum": "41ad3826d85db4eee7d11934589147e3"
+    },
+    ".kilo/instructions/math.instructions.md": {
+      "checksum": "75ce85d68f38f4a9e330f6b9066fa300"
+    },
+    ".kilo/instructions/powershell.instructions.md": {
+      "checksum": "efd6cd484f65737a4d6813ed0a01e9cd"
+    },
+    ".kilo/instructions/python.instructions.md": {
+      "checksum": "01cbe10feb75469380a439d0a785800c"
+    },
+    ".kilo/instructions/r.instructions.md": {
+      "checksum": "afc45325c98f688f827d87bfb9c74416"
+    },
+    ".kilo/instructions/stata.instructions.md": {
+      "checksum": "69a583e67925ed51ad18d276806b0c31"
+    },
+    ".kilo/kilo.json": {
+      "checksum": "2cc6b6ced32ff12a4841c0798ce12f73"
+    },
+    ".kilo/shared/active-state.contract.md": {
+      "checksum": "a80db386f94faeb28b773f8a6f0c8e22"
+    },
+    ".kilo/shared/artifact-view.contract.md": {
+      "checksum": "1378d5c4fb2802aa7f5ef250288d6fdc"
+    },
+    ".kilo/shared/context-loading.contract.md": {
+      "checksum": "1972f4c6a194bfa2f27bb5f8cc851437"
+    },
+    ".kilo/shared/goal-execution.contract.md": {
+      "checksum": "1377e995bbe6eb3f8892179ae14167d0"
+    },
+    ".kilo/shared/model-advisory-examples.json": {
+      "checksum": "3c516caea7867e323de5b70e8edf0aeb"
+    },
+    ".kilo/shared/model-advisory.contract.md": {
+      "checksum": "2008430405db3e46d8cc0ba12ae7ac08"
+    },
+    ".kilo/shared/retrieval-backends.json": {
+      "checksum": "1abe849dc7fb90b223a4ff8c1e1fcd6e"
+    },
+    ".kilo/shared/review-routing.contract.md": {
+      "checksum": "9d8eae218a23230a82a04c14771546c6"
+    },
+    ".kilo/shared/snapshot-research-modes.json": {
+      "checksum": "cc1bfad9fc27657ebf238f3573436e78"
+    },
+    ".kilo/shared/target-mapping.json": {
+      "checksum": "cba2ebc8eed908237257f986d7b86689"
+    },
+    ".kilo/skills/cg-skill-brain-query/SKILL.md": {
+      "checksum": "5e02c7e81187b5b37bd5fa3a7c103c72"
+    },
+    ".kilo/skills/cg-skill-brainstorming/SKILL.md": {
+      "checksum": "aa6eba2e1df48b50ae202a59a62ebedf"
+    },
+    ".kilo/skills/cg-skill-brainstorming/references/decision-template.md": {
+      "checksum": "d43c5e196b13638db567e6c9a3cd36ac"
+    },
+    ".kilo/skills/cg-skill-brainstorming/workflows/approach-comparison.md": {
+      "checksum": "11678edb5b9619a2f6d9798eb5acfef2"
+    },
+    ".kilo/skills/cg-skill-brainstorming/workflows/requirement-elicitation.md": {
+      "checksum": "a0031052842912e18641b8daf4fd26fa"
+    },
+    ".kilo/skills/cg-skill-compound-docs/SKILL.md": {
+      "checksum": "eb765e683d4966814675e2f587c3cb9a"
+    },
+    ".kilo/skills/cg-skill-compound-docs/references/solution-schema.md": {
+      "checksum": "923f3000dee42fc8058e92c116fd24e9"
+    },
+    ".kilo/skills/cg-skill-compound-docs/workflows/capture-solution.md": {
+      "checksum": "69e0a99e6f25fddd5c19da48be747029"
+    },
+    ".kilo/skills/cg-skill-compound-docs/workflows/search-solutions.md": {
+      "checksum": "b790f8e617c8a78870336eb31883f19f"
+    },
+    ".kilo/skills/cg-skill-fix-triage-migrate/SKILL.md": {
+      "checksum": "5e62a141f6e358f7e179b5164c661dbd"
+    },
+    ".kilo/skills/cg-skill-git-workflow/SKILL.md": {
+      "checksum": "f4c9598d437588eefdf6b53a5cec6634"
+    },
+    ".kilo/skills/cg-skill-git-workflow/references/gitignore-templates.md": {
+      "checksum": "f5d41132ce41367f3f903d1b00d35147"
+    },
+    ".kilo/skills/cg-skill-git-workflow/workflows/branching-strategy.md": {
+      "checksum": "e3f55c3c1fe7501c124e6a6020d3d998"
+    },
+    ".kilo/skills/cg-skill-git-workflow/workflows/commit-conventions.md": {
+      "checksum": "2612961ff543998d543f2815221ae764"
+    },
+    ".kilo/skills/cg-skill-git-workflow/workflows/pr-template.md": {
+      "checksum": "05f84cf8100fad0e55aadb43436d7ec6"
+    },
+    ".kilo/skills/cg-skill-pester-safety/SKILL.md": {
+      "checksum": "da07610b065d0ea984936a8fe2fb2fcb"
+    },
+    ".kilo/skills/cg-skill-project-scanner/SKILL.md": {
+      "checksum": "1f3c64338aa519e1203d17c377fadf67"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/SKILL.md": {
+      "checksum": "302753ca45804c1b2c9398902c6810f0"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/references/package-decisions.md": {
+      "checksum": "d0276690b6a7eb3d328562248fbc5b72"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/references/polars-reference.md": {
+      "checksum": "ec88424255a11eef67fe9f8265b72b5f"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/references/python-anti-patterns.md": {
+      "checksum": "c70bdfe95733e00471ee6b2709dc0110"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/workflows/api-patterns.md": {
+      "checksum": "a372df365b88b29d042fbbbdbcc993f1"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/workflows/logging-and-errors.md": {
+      "checksum": "653ed2d3657d752113239aba85f39d56"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/workflows/polars-patterns.md": {
+      "checksum": "b2ec0b53dd31c957fea3fbda008e8a6b"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/workflows/project-setup.md": {
+      "checksum": "e5c39b50447c8e0c4812b63142f3f801"
+    },
+    ".kilo/skills/cg-skill-python-best-practices/workflows/testing-pytest.md": {
+      "checksum": "157465846b48394bf632916e92d88df0"
+    },
+    ".kilo/skills/cg-skill-r-analytical/SKILL.md": {
+      "checksum": "ae0c3fa14f199436c60acc710dddad45"
+    },
+    ".kilo/skills/cg-skill-r-analytical/references/quarto-research.md": {
+      "checksum": "1841b5a4da7404aa2b030af69c38b6fb"
+    },
+    ".kilo/skills/cg-skill-r-analytical/references/r-analytical-anti-patterns.md": {
+      "checksum": "4a33871c656cf26c9fab5d1f3e96c6f4"
+    },
+    ".kilo/skills/cg-skill-r-analytical/workflows/econometrics.md": {
+      "checksum": "6add8ad234f9dee2870b8a271153e36e"
+    },
+    ".kilo/skills/cg-skill-r-analytical/workflows/stata-migration.md": {
+      "checksum": "a0c32e4348b95c4ac3f72f528efe6e12"
+    },
+    ".kilo/skills/cg-skill-r-analytical/workflows/survey-analysis.md": {
+      "checksum": "519c8842e404a9adb128c28ef82bee0b"
+    },
+    ".kilo/skills/cg-skill-r-analytical/workflows/welfare-patterns.md": {
+      "checksum": "8750dd0ed93fe3d5b0e126b6c7a2f1ca"
+    },
+    ".kilo/skills/cg-skill-r-collapse/SKILL.md": {
+      "checksum": "f867e0bca028abd76190bee124a4e2eb"
+    },
+    ".kilo/skills/cg-skill-r-collapse/references/collapse-advanced.md": {
+      "checksum": "821868932e01fb76f084f330e99bf6ef"
+    },
+    ".kilo/skills/cg-skill-r-collapse/references/collapse-anti-patterns.md": {
+      "checksum": "63d9850c02c203a7f7d7bbefefd2ebcd"
+    },
+    ".kilo/skills/cg-skill-r-collapse/references/collapse-reference.md": {
+      "checksum": "66c936f7ec9d93f71a83d6e0cbe40308"
+    },
+    ".kilo/skills/cg-skill-r-datatable/SKILL.md": {
+      "checksum": "39204ed36c146ce3aa230d7eddefa973"
+    },
+    ".kilo/skills/cg-skill-r-datatable/references/datatable-anti-patterns.md": {
+      "checksum": "c57d95d6cbdba23677880fa3a030a164"
+    },
+    ".kilo/skills/cg-skill-r-datatable/references/datatable-reference.md": {
+      "checksum": "95bed3ffe8531ec5c15e6050ef3a34c5"
+    },
+    ".kilo/skills/cg-skill-r-shared/SKILL.md": {
+      "checksum": "3bb2573943f4828578ac8b5454e20125"
+    },
+    ".kilo/skills/cg-skill-r-technical/SKILL.md": {
+      "checksum": "4a572a83b507a0b61536fcbc59009ce5"
+    },
+    ".kilo/skills/cg-skill-r-technical/references/r-technical-anti-patterns.md": {
+      "checksum": "ad1d8003d1f8f16e2eba00a4bdedec9c"
+    },
+    ".kilo/skills/cg-skill-r-technical/references/renv-reference.md": {
+      "checksum": "ad0e8225b9c7c03d7af92f22a5a5240e"
+    },
+    ".kilo/skills/cg-skill-r-technical/references/testing-apis.md": {
+      "checksum": "aa8a398e25702e9dfcd107fd3921e254"
+    },
+    ".kilo/skills/cg-skill-r-technical/references/testing-testthat.md": {
+      "checksum": "079801f19fa954f7d524b2beb437d484"
+    },
+    ".kilo/skills/cg-skill-r-technical/workflows/http-clients.md": {
+      "checksum": "16d0510793039b9dfd6b51da9a0343fc"
+    },
+    ".kilo/skills/cg-skill-r-technical/workflows/package-development.md": {
+      "checksum": "6ce7dde4a05eff9f0d10b4e3baa551ed"
+    },
+    ".kilo/skills/cg-skill-r-technical/workflows/plumber-api.md": {
+      "checksum": "a0628c87fa6298cdcbdde9491cdaacfa"
+    },
+    ".kilo/skills/cg-skill-r-technical/workflows/shiny-apps.md": {
+      "checksum": "eb13220b9d07cd2aee09523e3d3e112f"
+    },
+    ".kilo/skills/cg-skill-r-technical/workflows/targets-pipelines.md": {
+      "checksum": "cc93a8718ab209d72737483aca55dede"
+    },
+    ".kilo/skills/cg-skill-r-testing/SKILL.md": {
+      "checksum": "0901b002d88070815542bc7b21a70202"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/advanced.md": {
+      "checksum": "210650aea3d89b86f59e8d7ade2f7734"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/bdd.md": {
+      "checksum": "c3aadef58993cc544b08fa408a4118cd"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/fixtures.md": {
+      "checksum": "6e226da851881f99f7361fcd2a5f184e"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/mocking.md": {
+      "checksum": "e2d66eb5efbdf4752ee2ba15a12e0fc1"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/snapshots.md": {
+      "checksum": "53c6e863102454812321c24bf7660de5"
+    },
+    ".kilo/skills/cg-skill-r-testing/references/test-integrity.md": {
+      "checksum": "358a5038ee9378af63e25e0e0048ac51"
+    },
+    ".kilo/skills/cg-skill-r-tidyverse/SKILL.md": {
+      "checksum": "1fcbb93c88afad79057572f509b8dbce"
+    },
+    ".kilo/skills/cg-skill-r-tidyverse/references/tidyverse-anti-patterns.md": {
+      "checksum": "779363c5477d4be69cc25a82c8fb87ca"
+    },
+    ".kilo/skills/cg-skill-r-tidyverse/references/tidyverse-migration.md": {
+      "checksum": "6f5ef6b1b2da1edc34fae7ccc45e2712"
+    },
+    ".kilo/skills/cg-skill-r-tidyverse/references/tidyverse-reference.md": {
+      "checksum": "4942aaba0ed0281e27af301096fb5407"
+    },
+    ".kilo/skills/cg-skill-r-tidyverse/references/tidyverse-style.md": {
+      "checksum": "c054a3be36a04d3917d5e0c8d6322096"
+    },
+    ".kilo/skills/cg-skill-r-visualization/SKILL.md": {
+      "checksum": "c8273d90e5cf97c1391d57739ebbbb76"
+    },
+    ".kilo/skills/cg-skill-r-visualization/references/ggplot2-reference.md": {
+      "checksum": "8e8b608b3a8d6696583820203c7d4d42"
+    },
+    ".kilo/skills/cg-skill-render-doc/SKILL.md": {
+      "checksum": "ecbb69be3dd4afb38b2b65af6950ec66"
+    },
+    ".kilo/skills/cg-skill-render-doc/references/cli-reference.md": {
+      "checksum": "369df7d501380128789985ae219c49be"
+    },
+    ".kilo/skills/cg-skill-render-doc/references/theme-reference.md": {
+      "checksum": "473712b7c4c0954a80e4f7286f56749f"
+    },
+    ".kilo/skills/cg-skill-render-doc/workflows/check-freshness.md": {
+      "checksum": "8a0af68f07646fccde69a8eb1ae2f5a5"
+    },
+    ".kilo/skills/cg-skill-render-doc/workflows/render-document.md": {
+      "checksum": "40e11fe3dff34028045f2a4ca1813411"
+    },
+    ".kilo/skills/cg-skill-setup/SKILL.md": {
+      "checksum": "103413a96bbe4b7fdac03446aed0ee34"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/SKILL.md": {
+      "checksum": "00e855840b8f6da9b693bd8cb4e3a86a"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/asdoc.md": {
+      "checksum": "c2972d6611744efb389e4e08724a9c3b"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/binsreg.md": {
+      "checksum": "1c53265ca9f51abf8f6b88507ffe985b"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/coefplot.md": {
+      "checksum": "9c45b0a6481ab85ee7ec4c7ff09d9ece"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/data-manipulation.md": {
+      "checksum": "0857c0278a14a665bb5cb240411fa87f"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/diagnostics.md": {
+      "checksum": "7d40121e4e3a8de96742f9c9e1eeebf8"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/did.md": {
+      "checksum": "f07cd10ca69055d91ea36ac405d7a78a"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/estout.md": {
+      "checksum": "d63541454c2b3ca141aa189768c9688e"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/event-study.md": {
+      "checksum": "2cd4ba654adaf8dfc1fe0c776c77c2f6"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/graph-schemes.md": {
+      "checksum": "215c2e1353d101528bdfba6021ce51ad"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/ivreg2.md": {
+      "checksum": "d22530f5425064f3c50092e5a60a6c23"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/nprobust.md": {
+      "checksum": "ee26c9d03c43c298eea610e6a051e2cf"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/outreg2.md": {
+      "checksum": "b7a50a75b07903a9a3b00deae3178eca"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/package-management.md": {
+      "checksum": "5b62a710abdcfa9560c4981e0dc6072a"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/psmatch2.md": {
+      "checksum": "86e719167b09bcb49ea874eae3ac22d5"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/rdrobust.md": {
+      "checksum": "950e277e6772da46c0f374ea3bae0cc5"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/reghdfe.md": {
+      "checksum": "b14866e2bc622056ff041d17e910e0d7"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/repkit.md": {
+      "checksum": "50967960e1cc6ea6dde23fced90f188c"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/synth.md": {
+      "checksum": "3f3d8e1959a1b8f96800248b064432e9"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/tabout.md": {
+      "checksum": "fa12e6079c9f964eaaea442b07d9eb0a"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/winsor.md": {
+      "checksum": "b272a9f294a0ceae13e23a3c40aa0e8c"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/packages/xtabond2.md": {
+      "checksum": "ef2c1420106bdfb45868d2b27393561b"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/advanced-programming.md": {
+      "checksum": "53b803e611cef565e35f60b5a298b3f4"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/basics-getting-started.md": {
+      "checksum": "22445cadf3c1d10aa4548c655dc955d8"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/bootstrap-simulation.md": {
+      "checksum": "5ebc176847c9a441d2aa91368aadab10"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/coding-principles.md": {
+      "checksum": "05cbfc22889823743e0f8b5881de8a9d"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/data-import-export.md": {
+      "checksum": "5c40985d90dc67bf515276f3308c84d5"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/data-management.md": {
+      "checksum": "4739038ee11a1a687bff21557bf8f0dc"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/date-time-functions.md": {
+      "checksum": "dedf10d3c9a066dfe8446d9088e751c4"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/descriptive-statistics.md": {
+      "checksum": "61892c58e07a79b30769b99c4fe03260"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/difference-in-differences.md": {
+      "checksum": "c8d2973d1a05182ed780bf974e7f7ca9"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/external-tools-integration.md": {
+      "checksum": "2f281e79f07c8f740d178d5d14573e02"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/gmm-estimation.md": {
+      "checksum": "7eea3cf82f940b514ea798e3741a199e"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/graphics.md": {
+      "checksum": "56f4a3e3f00a21f4cb321af2528c027d"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/limited-dependent-variables.md": {
+      "checksum": "9bd65910d233b00e8924957cfb47d2d1"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/linear-regression.md": {
+      "checksum": "fdc0d1d4eab0a55963528995c7ce8005"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/machine-learning.md": {
+      "checksum": "cfcf542c70d5537e13dc90c8bbfc3c8d"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/mata-data-access.md": {
+      "checksum": "378ef7a3cf650e19b07d9daca2ceefc7"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/mata-introduction.md": {
+      "checksum": "14191510fb177ad1cde96bf85acab40c"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/mata-matrix-operations.md": {
+      "checksum": "9a8cba93e4827e5a6bd3d9ab996b1a54"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/mata-programming.md": {
+      "checksum": "cc82258a9c1cb53704f4473ea2fd437d"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/matching-methods.md": {
+      "checksum": "f4e4f9e3733a1e9dc0a594c3aadbdeac"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/mathematical-functions.md": {
+      "checksum": "9f375d46eda135fb4e78efec87a22156"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/maximum-likelihood.md": {
+      "checksum": "aa2d436d4ac620a07ed4cad04ce3d9a6"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/missing-data-handling.md": {
+      "checksum": "aac6f92dc1ec388fa49b75107bd9d9eb"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/nonparametric-methods.md": {
+      "checksum": "02426419f2ab814c93fa0e791bf2e0f5"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/panel-data.md": {
+      "checksum": "cd555f620095a0362211b1777f3a57d0"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/programming-basics.md": {
+      "checksum": "ae07e66020c0fd443d6ab2c6c1c46f05"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/regression-discontinuity.md": {
+      "checksum": "e9e47fea402d10086bed0cbc91d42898"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/sample-selection.md": {
+      "checksum": "f8c58fe1ff3144d69b6eb27f1f9da763"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/sem-factor-analysis.md": {
+      "checksum": "346f6d99a7fc586c6f97de571e48d4f7"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/spatial-analysis.md": {
+      "checksum": "5f7b03d2e6d2a16961298ce3615e20ab"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/string-functions.md": {
+      "checksum": "0c8ffcfcf5a9ac1dbc9f3db56f005c48"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/survey-data-analysis.md": {
+      "checksum": "b76f5c0818be1f80313a39e6372fbe05"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/survival-analysis.md": {
+      "checksum": "1d45741deccd397fd499122e3286dd41"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/tables-reporting.md": {
+      "checksum": "9a18269d1427a7b74bed021a7d9cc319"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/time-series.md": {
+      "checksum": "eb88f92bd3be940d402b4a6b80ba1e89"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/treatment-effects.md": {
+      "checksum": "0717d10fdc7c188bef93b70c02a30abe"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/variables-operators.md": {
+      "checksum": "7b794840a920bca110ebbc42f4cd51d4"
+    },
+    ".kilo/skills/cg-skill-stata-best-practices/references/workflow-best-practices.md": {
+      "checksum": "b90d93af12b338e2800c7fe2ca0e021b"
+    },
+    ".kilo/skills/cg-skill-stata-testing/SKILL.md": {
+      "checksum": "4ab82d286c190e8b61b61d84ed795d09"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/anti-patterns.md": {
+      "checksum": "c8f7b33492ba4268f1cdda84dd43726d"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/assertions-and-error-handling.md": {
+      "checksum": "5ab5270dc63c8b29c4fff3b4a62e907a"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/data-validation.md": {
+      "checksum": "21682dcbcd73cdbfcefc53a3ae529daa"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/reproducibility-reprun.md": {
+      "checksum": "2956bd8d4a913c6d1ca6fec89718b401"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/result-verification.md": {
+      "checksum": "f9388c6795515c6ef8b2a5ef8c3b5154"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/test-scaffolding.md": {
+      "checksum": "739fddd35205049160a1b0e28f30f176"
+    },
+    ".kilo/skills/cg-skill-stata-testing/references/workflow-examples.md": {
+      "checksum": "65d6142b93ca2c65ae07e01a4201b13d"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/SKILL.md": {
+      "checksum": "c8fc33366dd72539f3cd145921a966b1"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/.gitkeep": {
+      "checksum": "6a99c575ab87f8c7d1ed1e52e7e349ce"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/country-analytical-narrative.benchmark.json": {
+      "checksum": "1afc6cd3239b92eb7d09f0ee5d65fe5c"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/data-blog-post.benchmark.json": {
+      "checksum": "8b71b46e9335887d6075b23e60f04534"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/executive-summary.benchmark.json": {
+      "checksum": "ec16f8bdfb5772f4b331c4fd2a435716"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/flagship-report-section.benchmark.json": {
+      "checksum": "17da59a1f5a93fec6a05b92d0636a83c"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/internal-memo.benchmark.json": {
+      "checksum": "1636ae00a29ee88770bd3236c5340872"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/policy-brief.benchmark.json": {
+      "checksum": "6807ea9e06d8e052a83a0d7d0f40e347"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/policy-research-working-paper.benchmark.json": {
+      "checksum": "cc21e845dc12ceea0ac5a86dedeb7460"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/benchmarks/technical-methodology.benchmark.json": {
+      "checksum": "aa24999f04a049e0947109ef1469bc81"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/.gitkeep": {
+      "checksum": "6a99c575ab87f8c7d1ed1e52e7e349ce"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/country-analytical-narrative.feedback.json": {
+      "checksum": "44b3c9dbdafc221a9d5f4e1c65259a6a"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/data-blog-post.feedback.json": {
+      "checksum": "5d6765946997ddb64ae7fdd6655e82c4"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/executive-summary.feedback.json": {
+      "checksum": "aa53601de659f408d83651b918e6dc85"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/flagship-report-section.feedback.json": {
+      "checksum": "e2a18751bcdad6459c3f4257ff616820"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/internal-memo.feedback.json": {
+      "checksum": "dfe543328d9889743b91055c1c5725a9"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/policy-brief.feedback.json": {
+      "checksum": "ed2a715c101fa19d31c9af298a8dfd78"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/policy-research-working-paper.feedback.json": {
+      "checksum": "5c6453bb953599151ca855aa4db90201"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/feedback/technical-methodology.feedback.json": {
+      "checksum": "e9bfb07510a84a3b75672da09f1b9d91"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/.gitkeep": {
+      "checksum": "6a99c575ab87f8c7d1ed1e52e7e349ce"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/country-analytical-narrative.grading.json": {
+      "checksum": "8eaa612bd2393f52457b0d1925c951ec"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/data-blog-post.grading.json": {
+      "checksum": "567c501e47d6c3e1e11c3a62234fcbde"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/executive-summary.grading.json": {
+      "checksum": "d7e63eee8e450f4ea548ae5909243b19"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/flagship-report-section.grading.json": {
+      "checksum": "18a5882df63032002f8f9360d5a8d212"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/internal-memo.grading.json": {
+      "checksum": "cd92dc5540855f7dff0d5f1dd051874e"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/policy-brief.grading.json": {
+      "checksum": "21211df118c9b0695cb6e1e10913a39c"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/policy-research-working-paper.grading.json": {
+      "checksum": "81f9d87ac33da6cfc4c8ce2acd6bcb56"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/grades/technical-methodology.grading.json": {
+      "checksum": "d3b5060a5d321926f89d7cb8eafb1a26"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/.gitkeep": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/country-analytical-narrative.json": {
+      "checksum": "76791f713cee9f2309acf930effe4ab0"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/data-blog-post.json": {
+      "checksum": "4c88c54e372ce71add3fa2f8731b498a"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/executive-summary.json": {
+      "checksum": "2e43b821691a17034c2d49f1520a04d5"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/flagship-report-section.json": {
+      "checksum": "969b90853c7324b9437f800e7b60b726"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/internal-memo.json": {
+      "checksum": "0e73479424fe1546f0f62edb46e1c2df"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/policy-brief.json": {
+      "checksum": "34a26e431240510ea0e9d7e2bc144bf7"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/policy-research-working-paper.json": {
+      "checksum": "3aeb0805c13a0889a10d0806d27151cd"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/results/technical-methodology.json": {
+      "checksum": "3bbb693edfe067b23303b87115c35b5c"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/.gitkeep": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/country-analytical-narrative.json": {
+      "checksum": "cdc1fc27193b07ad343399da3c11ffcd"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/data-blog-post.json": {
+      "checksum": "cecd0b07d96e4691b1b99aa87c151416"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/executive-summary.json": {
+      "checksum": "217fcb4b7dde1ef1f58e451f6ac96714"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/flagship-report-section.json": {
+      "checksum": "380d03fc38e651a1c6c6694213d12a69"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/internal-memo.json": {
+      "checksum": "b4482b705e96ea29fcfc71c94ba304ca"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/policy-brief.json": {
+      "checksum": "5d05c391eb8153473ea4e4706cc2acf3"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/policy-research-working-paper.json": {
+      "checksum": "c5f42a498ce33b941fc741ee573ee7a1"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/evals/types/technical-methodology.json": {
+      "checksum": "af5ede3e5eecd25f3db2bc42b4bfdfb1"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/quality-review-checklist.md": {
+      "checksum": "0706d029e81afc9eb460a465c9e8fb01"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/safety-and-markers.md": {
+      "checksum": "bec5ec2fda262cf98047d95f98913341"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/.gitkeep": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/country-analytical-narrative.json": {
+      "checksum": "9cd06c350d9715168481498e6028ff62"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/data-blog-post.json": {
+      "checksum": "259b53edc99b9defe1e979322eadc18a"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/executive-summary.json": {
+      "checksum": "8517d502623cdcaccd89bb97430e6658"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/flagship-report-section.json": {
+      "checksum": "62db819c507c67c3486f9a9c136eddf1"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/internal-memo.json": {
+      "checksum": "62adf2cdcf9f06e524dd3a4b31b11379"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/policy-brief.json": {
+      "checksum": "2271cbb36dd3fd108e7709d08a14c0b1"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/policy-research-working-paper.json": {
+      "checksum": "4a5a51786f8b660ce88866624da9be63"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/source-packs/technical-methodology.json": {
+      "checksum": "ccebcb680c82a6313552f630790902a6"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/style-conventions.md": {
+      "checksum": "b9cd294a5a665999b0152bdbc0baf81e"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/terminology.md": {
+      "checksum": "5939c542aa39247d162f3cca8135b3c8"
+    },
+    ".kilo/skills/cg-skill-wb-report-writing/references/workflows.md": {
+      "checksum": "51f266e7fb9b583a373ee756ff7b7450"
+    },
+    ".kilo/skills/cg-skill-wiki/SKILL.md": {
+      "checksum": "1fbdc5810cb0ca22ea790d01ce3fe153"
+    },
+    ".kilo/skills/cg-skill-windows-cmd-python-detection/SKILL.md": {
+      "checksum": "e41935b69de76dd0d857db3b540a7b9b"
+    },
+    ".kilo/skills/cg-skill-yaml-frontmatter-lint/Invoke-YamlLint.ps1": {
+      "checksum": "6c11db51f8969ec008bff242329de406"
+    },
+    ".kilo/skills/cg-skill-yaml-frontmatter-lint/Invoke-YamlLint.sh": {
+      "checksum": "131b987858d974abf65d19f79cbc2f30"
+    },
+    ".kilo/skills/cg-skill-yaml-frontmatter-lint/SKILL.md": {
+      "checksum": "a07ed053e85d403e5ab2a18672c6da33"
+    },
+    ".kilo/skills/cg-skill-yaml-frontmatter-lint/validate_yaml_frontmatter.py": {
+      "checksum": "fbeb16dd27cd4e8de8d4cab34da3161e"
+    },
+    ".kilo/skills/cr-skill-academic-writing/SKILL.md": {
+      "checksum": "78947b9d9f66b77616ec8849af3ff227"
+    },
+    ".kilo/skills/cr-skill-evidence-provenance/SKILL.md": {
+      "checksum": "3e4541fc486ed2ef0a4f2832b401ea88"
+    },
+    ".kilo/skills/cr-skill-identification-strategies/SKILL.md": {
+      "checksum": "c8172f68a52bb79bff0077e6e40052cd"
+    },
+    ".kilo/skills/cr-skill-mathematical-derivation/SKILL.md": {
+      "checksum": "8f667af9044a442ed53515320509c33f"
+    },
+    ".kilo/skills/cr-skill-measurement/SKILL.md": {
+      "checksum": "42c241d9b002f5bea415be9dfae80aaf"
+    },
+    ".kilo/skills/cr-skill-ml-economics/SKILL.md": {
+      "checksum": "c9a4498088e2fb0da310a71b10551726"
+    },
+    ".kilo/skills/cr-skill-publication-output/SKILL.md": {
+      "checksum": "4847bbf66d638dce57ba909717c4dffb"
+    },
+    ".kilo/skills/cr-skill-replication-standards/SKILL.md": {
+      "checksum": "2dfab72091dfb45d45777d2b0f52a9f5"
+    },
+    ".kilo/skills/cr-skill-research-eda/SKILL.md": {
+      "checksum": "c27c13c489de8cfb487cb54f4ec699a4"
+    },
+    ".kilo/skills/cr-skill-research-integrity/SKILL.md": {
+      "checksum": "c8922a65d213b7118513bd6b247c6824"
+    },
+    ".kilo/skills/cr-skill-research-scoping/SKILL.md": {
+      "checksum": "33a8696407c1816b55b16eeb24017ca6"
+    },
+    ".kilo/skills/cr-skill-research-workflow/SKILL.md": {
+      "checksum": "791a4fe2ebde7be86a97ec364b96b23b"
+    },
+    ".kilo/skills/cr-skill-structural-econometrics/SKILL.md": {
+      "checksum": "a63ab84abecff60229e2cc8482db1737"
+    },
+    ".kilo/skills/cr-skill-symbolic-verification/SKILL.md": {
+      "checksum": "d2823c35cbbdc4f5d7b2d9d054853e12"
+    },
+    ".kilo/skills/cr-skill-theory-data-dialogue/SKILL.md": {
+      "checksum": "ec3b47bc9dafa55b9aa3c7ad3038a8c1"
+    },
+    ".opencode/AGENTS.md": {
+      "checksum": "51c4966cd0adbf6e88db5650a28934d9"
+    },
+    ".opencode/opencode.json": {
+      "checksum": "dc614df6be10dd1e0b8c4fd47f6bd5f8"
+    },
+    ".pytest_cache/.gitignore": {
+      "checksum": "ae07caff09568018697eb6087d745223"
+    },
+    ".pytest_cache/CACHEDIR.TAG": {
+      "checksum": "f552fcc7d0ecdb6607533519d6898357"
+    },
+    ".pytest_cache/README.md": {
+      "checksum": "7cc7f8d7cb2f2f6ea48da17c4b42c097"
+    },
+    ".pytest_cache/v/cache/lastfailed": {
+      "checksum": "99914b932bd37a50b983c5e7c90ae93b"
+    },
+    ".pytest_cache/v/cache/nodeids": {
+      "checksum": "363b106e2351566c98bea0335fe425e4"
+    },
+    ".python-version": {
+      "checksum": "c0479ff484dacd51dc5ba0461b16b9bf"
+    },
+    ".ruff_cache/.gitignore": {
+      "checksum": "07813ad49b7c958916325086d422ca91"
+    },
+    ".ruff_cache/0.16.3/2518130076266457295": {
+      "checksum": "3ca54d623755f9413864d25cdc072437"
+    },
+    ".ruff_cache/0.16.3/4047803220504501641": {
+      "checksum": "5621572b6f7e467f93553b78fdb6abb4"
+    },
+    ".ruff_cache/0.16.3/8364396478370782924": {
+      "checksum": "ab998cd381764a38826d693cdc683892"
+    },
+    ".ruff_cache/0.16.3/9740100539688318410": {
+      "checksum": "ececdb32d07ab72ddd509533e01feb78"
+    },
+    ".ruff_cache/CACHEDIR.TAG": {
+      "checksum": "4b50dc490ca121c935cec9c15273aa95"
+    },
+    "LICENSE": {
+      "checksum": "bcafb3af0796b8e7d6f8e93d89e62a44"
+    },
+    "README.md": {
+      "checksum": "56a526e65abc58451664bfef793da785"
+    },
+    "app/__init__.py": {
+      "checksum": "8ce6d77b4ae564d8acca4f59fb7423ce"
+    },
+    "app/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "c632415dcb46f308c3a4136a17cf21b5"
+    },
+    "app/__pycache__/__init__.cpython-314.pyc": {
+      "checksum": "bdc5b82e913d0a4882b65867bcfb6466"
+    },
+    "app/__pycache__/access.cpython-311.pyc": {
+      "checksum": "2ff845f7887dcdf948d422a19eee5fba"
+    },
+    "app/__pycache__/config.cpython-311.pyc": {
+      "checksum": "626822bacbb83d513c72673d9927a7d5"
+    },
+    "app/__pycache__/main.cpython-311.pyc": {
+      "checksum": "27c146748267a3232e154a35edc55036"
+    },
+    "app/__pycache__/schemas.cpython-311.pyc": {
+      "checksum": "4d2b6f96fd24c8cf962514cb1a3c7d95"
+    },
+    "app/__pycache__/schemas.cpython-314.pyc": {
+      "checksum": "d333fd03e7483b960f3d33de12e91b2e"
+    },
+    "app/__pycache__/storage.cpython-311.pyc": {
+      "checksum": "d578c0d16265e4c456975c5088ed15d8"
+    },
+    "app/__pycache__/storage.cpython-314.pyc": {
+      "checksum": "621ec81ff3a8f54333054bbe5ac366ba"
+    },
+    "app/access.py": {
+      "checksum": "e208b3a90c4aabc8ff16c0d92af98914"
+    },
+    "app/config.py": {
+      "checksum": "0ffb2f800eb0f76affe1db9872df8162"
+    },
+    "app/domain/__init__.py": {
+      "checksum": "c84b8f6e6db717ee14ba20fb81a9fd31"
+    },
+    "app/domain/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "1a72b01925519481c1f292cdf3575e27"
+    },
+    "app/domain/__pycache__/__init__.cpython-314.pyc": {
+      "checksum": "39e1c1ec2879844af2846c1882652d7b"
+    },
+    "app/domain/__pycache__/manifest.cpython-311.pyc": {
+      "checksum": "30a8eb8242fb6bf5b9a1e643725312d5"
+    },
+    "app/domain/__pycache__/manifest.cpython-314.pyc": {
+      "checksum": "d9f6a49ec2e59e69ec3acf67ffe85e32"
+    },
+    "app/domain/__pycache__/validation.cpython-311.pyc": {
+      "checksum": "c97b5c7eac8ab5afc30d26a2ae4cea8f"
+    },
+    "app/domain/__pycache__/validation.cpython-314.pyc": {
+      "checksum": "401cee5dac211f8b5b400b86c02af50f"
+    },
+    "app/domain/manifest.py": {
+      "checksum": "e73e705214211b99f841c12b49a52fc5"
+    },
+    "app/domain/validation.py": {
+      "checksum": "c854259117cb34ead42f2c290e4dad45"
+    },
+    "app/main.py": {
+      "checksum": "c5d2d72ec16fc6f5d2aadf63563ce8a6"
+    },
+    "app/schemas.py": {
+      "checksum": "a26a83c62187a369dafeb7043eba99d7"
+    },
+    "app/storage.py": {
+      "checksum": "23a1cb5a0f5b043260626d8603850d00"
+    },
+    "app/web/app.js": {
+      "checksum": "e4fd6d7af8608375a87dcf7e980e69ed"
+    },
+    "app/web/index.html": {
+      "checksum": "afa7d41a6e6abfd6774b23151bc5f749"
+    },
+    "app/web/styles.css": {
+      "checksum": "a16c2b4d4fd29418ee1981b30ff77cc6"
+    },
+    "compound-gpid.context.md": {
+      "checksum": "6bcd6aa4f65143b061d5e4419d3b143a"
+    },
+    "compound-gpid.local.md": {
+      "checksum": "7aa0ac5757b556e111dc92da30618508"
+    },
+    "compound-gpid.md": {
+      "checksum": "6019b41a54a8cf3ec083de12c9ee3130"
+    },
+    "config/allowed-testers.json": {
+      "checksum": "6fdd5ab82ca4ee89cde66706f5ade026"
+    },
+    "connect_app.py": {
+      "checksum": "3086695d1dd0669ee4cdc10c59164a31"
+    },
+    "data/README.md": {
+      "checksum": "bcfb6c3e6ebda5ade9c040d1786dd7de"
+    },
+    "data/responses/.gitkeep": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data/source/global-nso-ai-readiness-survey-draft.md": {
+      "checksum": "027731d919dca5bb0760a0d60d592b24"
+    },
+    "data/source/response-codes.json": {
+      "checksum": "d8949373e5730b35e98378a336033a14"
+    },
+    "data/source/source-metadata.json": {
+      "checksum": "b05f3fa1e35ad146f1480887acecc4ea"
+    },
+    "data/survey-manifest.json": {
+      "checksum": "c5ce29f144563a94e9b7a8e2e54611fa"
+    },
+    "pyproject.toml": {
+      "checksum": "b34d529337d0bf70a07738450827c432"
+    },
+    "requirements-dev.txt": {
+      "checksum": "6b09420e071628f991b2932944313f55"
+    },
+    "roadmap.json": {
+      "checksum": "a4e7fbe0807733edaeab4ac68b1b5480"
+    },
+    "scripts/__init__.py": {
+      "checksum": "054b4448723db531da84996ceaf339e8"
+    },
+    "scripts/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "c0a84742b0aa9491ebd98e74a2b7363f"
+    },
+    "scripts/__pycache__/__init__.cpython-314.pyc": {
+      "checksum": "d839b44c304842ed95126e476e7ecb36"
+    },
+    "scripts/__pycache__/import_survey.cpython-311.pyc": {
+      "checksum": "11be50f11a75dc91011896aa1eea0cd0"
+    },
+    "scripts/__pycache__/import_survey.cpython-314.pyc": {
+      "checksum": "ba40c14514fe4afe9d1f56b6ddc865e5"
+    },
+    "scripts/import_survey.py": {
+      "checksum": "c8b2c1ca4e0d2b830add867211ca8d14"
+    },
+    "tests/__pycache__/conftest.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "6eb820fc91fd7e793c61b99d1e6eb1ba"
+    },
+    "tests/__pycache__/conftest.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "7fc24287ec323399afb3ba0d078bd9c9"
+    },
+    "tests/__pycache__/test_access.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "16415b5d98c248dd78651a5ec2ce85cc"
+    },
+    "tests/__pycache__/test_access.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "ca5ecb02832bc86907a8a68c00adf5ea"
+    },
+    "tests/__pycache__/test_api.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "f6f21affd41f4d7cdec1264f67c0ad23"
+    },
+    "tests/__pycache__/test_api.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "abb5b9e918da9968db45cf77862dd7c9"
+    },
+    "tests/__pycache__/test_source_import.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "f4002fd16faee87ae670122b20e75ea8"
+    },
+    "tests/__pycache__/test_source_import.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "3859441f7a836f1aa6e57334292d5b27"
+    },
+    "tests/__pycache__/test_storage.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "453e334163b744353ec647922b04bf7e"
+    },
+    "tests/__pycache__/test_storage.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "d4ce95887997690e4300b7ffb43b98e7"
+    },
+    "tests/__pycache__/test_survey_manifest.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "d2ea29b94c269d12dc3d0698a3e55892"
+    },
+    "tests/__pycache__/test_survey_manifest.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "429673726d0f1d1f09fe1bc9c7fe605e"
+    },
+    "tests/__pycache__/test_workflow.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "e66c1e352c638ac6a30ba15c42e43e54"
+    },
+    "tests/__pycache__/test_workflow.cpython-311.pyc": {
+      "checksum": "9b1edc0c861cf54c0f31fcac5ce2cae4"
+    },
+    "tests/__pycache__/test_workflow.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "2d38fd0cff3c6ad41f5dd26d9a98ad45"
+    },
+    "tests/conftest.py": {
+      "checksum": "3e099dccd5c082d1a1d7185d66096c14"
+    },
+    "tests/e2e/__pycache__/test_review_flow.cpython-311-pytest-9.1.1.pyc": {
+      "checksum": "c085700f04bb993355cf509f50568063"
+    },
+    "tests/e2e/__pycache__/test_review_flow.cpython-314-pytest-9.1.1.pyc": {
+      "checksum": "e47a18bc2d2ef63c6aa3fea6776df417"
+    },
+    "tests/e2e/test_review_flow.py": {
+      "checksum": "304357bdd773014bc031a7989d64f9d2"
+    },
+    "tests/test_access.py": {
+      "checksum": "ae908ef2e8fdffdcf2ce3c81c734efce"
+    },
+    "tests/test_api.py": {
+      "checksum": "7cb604d3c11534717cfa0395bae96854"
+    },
+    "tests/test_source_import.py": {
+      "checksum": "0ee43a921c4169c5aa69f3e711f715a4"
+    },
+    "tests/test_storage.py": {
+      "checksum": "f47bd74804b05d4bf6149a0a84dd70d8"
+    },
+    "tests/test_survey_manifest.py": {
+      "checksum": "a71da40429180b01d915c2165c4cd1da"
+    },
+    "tests/test_workflow.py": {
+      "checksum": "b517f58d276c685610ed7a2f383c6670"
+    },
+    "uv.lock": {
+      "checksum": "505cae018ae4dc22a97629c14dd6d0d6"
+    }
+  }
+}
