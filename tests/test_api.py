@@ -31,6 +31,14 @@ def test_health_endpoint_is_public_and_does_not_expose_data(tmp_path: Path) -> N
     assert response.json() == {"status": "ok"}
 
 
+def test_review_route_serves_the_tester_application(tmp_path: Path) -> None:
+    """The Connect-compatible review path serves the HTML application shell."""
+    response = _client(tmp_path).get("/review")
+
+    assert response.status_code == 200
+    assert "Global survey review" in response.text
+
+
 def test_manifest_requires_an_approved_session(tmp_path: Path) -> None:
     """Survey content must not be available before allowlist entry."""
     response = _client(tmp_path).get("/api/manifest")

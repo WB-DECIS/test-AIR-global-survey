@@ -86,12 +86,12 @@ function renderGate(message = "") {
     button.disabled = true;
     try {
       const formData = new FormData(form);
-      const access = await getJson("/api/access", {
+      const access = await getJson("api/access", {
         method: "POST",
         body: JSON.stringify({ email: formData.get("email") }),
       });
       state.tester = access.tester;
-      state.manifest = await getJson("/api/manifest");
+      state.manifest = await getJson("api/manifest");
       state.currentIndex = 0;
       state.responses = {};
       state.generalFeedback = {};
@@ -335,7 +335,7 @@ function renderGeneralFeedback() {
     state.generalFeedback.overall_burden = document.querySelector("#overall_burden").value || null;
     state.generalFeedback.other_comments = document.querySelector("#other_comments").value.trim() || null;
     try {
-      const result = await getJson("/api/submissions", {
+      const result = await getJson("api/submissions", {
         method: "POST",
         body: JSON.stringify({
           submission_id: crypto.randomUUID(),
@@ -367,9 +367,9 @@ function renderComplete(submissionId) {
 
 async function bootstrap() {
   try {
-    const session = await getJson("/api/session");
+    const session = await getJson("api/session");
     state.tester = session.tester;
-    state.manifest = await getJson("/api/manifest");
+    state.manifest = await getJson("api/manifest");
     if (restoreState()) {
       renderReview();
     } else {

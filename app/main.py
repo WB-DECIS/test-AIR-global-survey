@@ -120,6 +120,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         """Serve the tester application shell."""
         return FileResponse(WEB_DIR / "index.html")
 
+    @application.get("/review", include_in_schema=False)
+    def review() -> FileResponse:
+        """Serve the tester application at the Connect-compatible route."""
+        return FileResponse(WEB_DIR / "index.html")
+
     @application.get("/health")
     def health() -> dict[str, str]:
         """Return a data-free liveness response."""
