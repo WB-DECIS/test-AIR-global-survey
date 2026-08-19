@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "compound-gpid-roadmap-v1",
+  "milestones": [
+    {
+      "id": "survey-questions-are-set-now",
+      "title": "Survey questions are set. Now we will build the testing application.",
+      "objective": "Survey questions are set. Now we will build the testing application.",
+      "status": "in-progress",
+      "features": [
+        {
+          "id": "initial-focus",
+          "title": "Survey questions are set. Now we will build the testing application.",
+          "status": "in-progress",
+          "plan": null
+        }
+      ]
+    }
+  ]
+}
