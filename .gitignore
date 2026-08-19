@@ -21,6 +21,20 @@
 # RStudio files
 .Rproj.user/
 
+# Python application
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.env
+
+# Pilot response data and disposable test output
+data/responses/*
+!data/responses/.gitkeep
+tests/.tmp/
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf

@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0-draft",
+  "ordered_scale": {
+    "Not in place": 0,
+    "Early or partial": 1,
+    "Established": 2,
+    "Advanced or systematic": 3
+  },
+  "special_responses": {
+    "Unknown": "U",
+    "Not applicable": "NA"
+  },
+  "gateway": {
+    "G1": {
+      "options": {
+        "G1-0": "No current or planned activity",
+        "G1-1": "Planning or early exploration",
+        "G1-2": "Active development or piloting",
+        "G1-3": "Production use"
+      }
+    },
+    "G2": {
+      "use_pattern": [
+        "G2-use-0",
+        "G2-use-1",
+        "G2-use-2",
+        "G2-use-3",
+        "G2-use-U"
+      ],
+      "governance": [
+        "G2-governance-0",
+        "G2-governance-1",
+        "G2-governance-2",
+        "G2-governance-3",
+        "G2-governance-U"
+      ]
+    }
+  },
+  "items": {
+    "Q1": {"dimension": "1.1", "applicability": "foundational", "score": true},
+    "Q2": {"dimension": "1.2", "applicability": "foundational", "score": true},
+    "Q3": {"dimension": "1.3", "construct": "literacy_training", "applicability": "foundational", "score": true},
+    "Q4": {"dimension": "1.3", "construct": "specialized_expertise", "applicability": "foundational", "score": true},
+    "Q5": {"dimension": "1.4", "applicability": "foundational", "score": true},
+    "Q6": {"dimension": "1.5", "applicability": "ai_activity_dependent", "not_applicable_if": "G1-0", "score": true},
+    "Q7": {"dimension": "1.6", "applicability": "foundational", "score": true},
+    "Q8": {"dimension": "2.1", "applicability": "product_dependent", "score": true},
+    "Q9": {"dimension": "2.2", "applicability": "product_dependent", "score": true},
+    "Q10": {"dimension": "2.3", "applicability": "product_dependent", "score": true},
+    "Q11": {"dimension": "2.4", "applicability": "product_dependent", "score": true},
+    "Q12": {"dimension": "2.5", "applicability": "ai_activity_dependent", "not_applicable_if": "G1-0", "score": true}
+  },
+  "pillars": {
+    "institutional": ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7"],
+    "data_products": ["Q8", "Q9", "Q10", "Q11", "Q12"]
+  }
+}

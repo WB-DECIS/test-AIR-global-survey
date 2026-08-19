@@ -1,0 +1,258 @@
+{
+  "source": {
+    "repository": "https://github.com/zander-prinsloo/AI-Readiness-of-NSOs",
+    "branch": "research/global-nso-ai-readiness-survey",
+    "commit": "fa031bae8ac7f85a88bc989846944b6363cf03e3",
+    "version": "0.1.0-draft",
+    "draft_sha256": "cd8946632c619d1e91bfea276b979de35ca3bad3c5cd22902a0e657029669b18",
+    "response_codes_sha256": "68f59f25b95548eb087a95edbf2af4298a64270c77cfdcf808f34ac485ffba1f"
+  },
+  "judgment_options": [
+    "Good question",
+    "Bad question",
+    "Needs refinement"
+  ],
+  "review_points": [
+    {
+      "id": "G1",
+      "section": "Gateway",
+      "type": "question",
+      "title": "Organizational AI activity",
+      "prompt": "Which best describes the NSO's current or planned use of AI for statistical production or dissemination?",
+      "options": [
+        "No current or planned activity",
+        "Planning or early exploration",
+        "Active development or piloting",
+        "Production use"
+      ],
+      "source_anchor": "### G1. Organizational AI activity",
+      "note": "G1 is not scored. It is used to interpret and route the scored questions."
+    },
+    {
+      "id": "G2",
+      "section": "Gateway",
+      "type": "question",
+      "title": "Staff use of AI tools",
+      "prompt": "Which best describes staff use of AI tools in the NSO, whether tools are officially provided or not? Consider both use for statistical work and general productivity. Answer both parts.",
+      "options": [],
+      "source_anchor": "### G2. Staff use of AI tools",
+      "note": "G2 is not scored. Report both parts as an adoption and governance profile alongside the readiness profile.",
+      "parts": [
+        {
+          "id": "G2-use",
+          "label": "Part A: Use pattern",
+          "options": [
+            "No known staff use",
+            "Personal or otherwise unapproved tools are used, but no enterprise-provided tools are used",
+            "Enterprise-provided tools are used, but personal or otherwise unapproved use is not known",
+            "Both enterprise-provided and personal or otherwise unapproved tools are used"
+          ]
+        },
+        {
+          "id": "G2-governance",
+          "label": "Part B: Governance of use",
+          "options": [
+            "No known guidance or governance",
+            "Informal or limited guidance exists",
+            "Formal guidance has been communicated to relevant staff",
+            "Use is managed and monitored under formal controls",
+            "Unknown"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q1",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Formal AI strategy",
+      "prompt": "To what extent has the NSO adopted a formal AI strategy for statistical work?",
+      "options": [
+        "Not in place: No formal AI strategy exists.",
+        "Early or partial: AI strategy discussions are underway or a draft exists.",
+        "Established: A formal AI strategy has been adopted.",
+        "Advanced or systematic: A formal strategy is adopted, implemented, and monitored."
+      ],
+      "source_anchor": "### Q1. Formal AI strategy"
+    },
+    {
+      "id": "Q2",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "AI-specific legal and privacy guidance",
+      "prompt": "To what extent does the NSO have formal AI-specific legal and privacy guidance that relevant staff know about and can follow?",
+      "options": [
+        "Not in place: No AI-specific legal or privacy guidance exists.",
+        "Early or partial: Guidance is informal, partial, or available only for some activities.",
+        "Established: Formal guidance exists, but staff awareness or application is uneven.",
+        "Advanced or systematic: Formal guidance is known, followed, and reviewed."
+      ],
+      "source_anchor": "### Q2. AI-specific legal and privacy guidance"
+    },
+    {
+      "id": "Q3",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "AI-literacy training and guidance",
+      "prompt": "What AI-literacy training or guidance has the NSO provided to staff?",
+      "options": [
+        "Not in place: No organizational AI-literacy guidance or training has been provided.",
+        "Early or partial: Informal or occasional awareness activities have been provided.",
+        "Established: Structured training has been provided to selected staff or relevant groups.",
+        "Advanced or systematic: Structured training is provided systematically across relevant staff and is maintained over time."
+      ],
+      "source_anchor": "### Q3. AI-literacy training and guidance"
+    },
+    {
+      "id": "Q4",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Specialized in-house expertise",
+      "prompt": "To what extent does the NSO have specialized AI expertise in-house to develop, assess, and maintain AI systems?",
+      "options": [
+        "Not in place: No specialized AI expertise is available in-house.",
+        "Early or partial: A few individuals have relevant skills, but coverage is limited and concentrated.",
+        "Established: In-house expertise covers some important technical areas or projects, with material gaps remaining.",
+        "Advanced or systematic: An in-house team covers the main AI lifecycle needs, including development, assessment, deployment, and maintenance."
+      ],
+      "source_anchor": "### Q4. Specialized in-house expertise"
+    },
+    {
+      "id": "Q5",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Current technical capacity",
+      "prompt": "What is the NSO's current technical capacity to support AI-related work?",
+      "options": [
+        "Not in place: Basic infrastructure is unreliable, including frequent electricity or internet disruption.",
+        "Early or partial: Infrastructure is reliable enough for experimentation but is limited for operational use.",
+        "Established: Secure infrastructure supports operational AI development, with some deployment or monitoring capability.",
+        "Advanced or systematic: Secure end-to-end capacity supports deployment, monitoring, maintenance, and controlled scaling."
+      ],
+      "source_anchor": "### Q5. Current technical capacity"
+    },
+    {
+      "id": "Q6",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Funding and resources",
+      "prompt": "What best describes funding for the NSO's current or planned AI activities?",
+      "options": [
+        "Not in place: No funding is available.",
+        "Early or partial: Some ad-hoc funding is available.",
+        "Established: Funding is available for an approved AI pilot.",
+        "Advanced or systematic: Sustained funding covers the full lifecycle, including operation, maintenance, and monitoring.",
+        "Not applicable: The NSO has no current or planned AI activity."
+      ],
+      "source_anchor": "### Q6. Funding and resources"
+    },
+    {
+      "id": "Q7",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "AI-specific partnerships",
+      "prompt": "To what extent does the NSO have AI-specific partnerships that provide access to expertise, methods, technology, implementation support, or responsible-AI advice? Do not count ordinary statistical partnerships.",
+      "options": [
+        "Not in place: No relevant AI-specific partnership exists.",
+        "Early or partial: Informal or occasional AI-specific support is available.",
+        "Established: Active partnerships provide recurring access to AI capability.",
+        "Advanced or systematic: Governed partnerships build sustained institutional capability and transfer knowledge to the NSO."
+      ],
+      "source_anchor": "### Q7. AI-specific partnerships"
+    },
+    {
+      "id": "product-reference",
+      "section": "Scored Questions",
+      "type": "instruction",
+      "title": "Product reference for Q8-Q11",
+      "prompt": "Name one suitable key public data product: ________________________________",
+      "options": [],
+      "source_anchor": "### Product reference for Q8-Q11"
+    },
+    {
+      "id": "Q8",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Metadata standards and classifications",
+      "prompt": "For the selected product, how is metadata documented and structured?",
+      "options": [
+        "Not in place: Little or no metadata is available.",
+        "Early or partial: Metadata is mainly human-readable or produced ad hoc.",
+        "Established: Recognized metadata standards are used for some or key parts of the product.",
+        "Advanced or systematic: Maintained, machine-readable, standardized metadata covers the product.",
+        "Unknown"
+      ],
+      "source_anchor": "### Q8. Metadata standards and classifications"
+    },
+    {
+      "id": "Q9",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Quality control and provenance",
+      "prompt": "For the selected product, how are quality, provenance, revisions, and known limitations documented and communicated?",
+      "options": [
+        "Not in place: These matters are not documented systematically.",
+        "Early or partial: Some narrative or partial documentation is available.",
+        "Established: Systematic documentation is maintained for the product.",
+        "Advanced or systematic: Structured, machine-readable quality and provenance information is linked to the product.",
+        "Unknown"
+      ],
+      "source_anchor": "### Q9. Quality control and provenance"
+    },
+    {
+      "id": "Q10",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Searchable data catalogue",
+      "prompt": "How can users discover the selected product?",
+      "options": [
+        "Not in place: There is no central inventory or reliable discovery route.",
+        "Early or partial: Users rely on static webpages, publication lists, or basic search.",
+        "Established: A maintained catalogue supports structured search or filtering.",
+        "Advanced or systematic: A comprehensive, machine-accessible catalogue is the authoritative discovery route.",
+        "Unknown"
+      ],
+      "source_anchor": "### Q10. Searchable data catalogue"
+    },
+    {
+      "id": "Q11",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "API access",
+      "prompt": "How can users access the selected product programmatically?",
+      "options": [
+        "Not in place: No API is available.",
+        "Early or partial: A pilot or limited API exists.",
+        "Established: An API covers the selected product.",
+        "Advanced or systematic: A documented and reliable API provides the product and relevant metadata.",
+        "Unknown"
+      ],
+      "source_anchor": "### Q11. API access"
+    },
+    {
+      "id": "Q12",
+      "section": "Scored Questions",
+      "type": "question",
+      "title": "Agentic AI access and GenAI dissemination",
+      "prompt": "To what extent is the NSO using or preparing for AI-mediated dissemination or access by AI agents, with appropriate safeguards?",
+      "options": [
+        "Not in place: A current or planned relevant activity exists, but no AI-mediated access or dissemination capability or safeguards are in place.",
+        "Early or partial: Awareness, discussion, or early exploration is underway.",
+        "Established: An AI-mediated dissemination or agent-access pilot is underway.",
+        "Advanced or systematic: Governed production use includes monitoring and human oversight.",
+        "Not applicable: There is no current or planned activity relevant to this question.",
+        "Unknown"
+      ],
+      "source_anchor": "### Q12. Agentic AI access and GenAI dissemination"
+    },
+    {
+      "id": "optional-evidence",
+      "section": "Optional Evidence",
+      "type": "instruction",
+      "title": "Optional Evidence",
+      "prompt": "Where convenient, respondents may provide a public URL or document reference for a strategy, guidance, training program, product catalogue, API, or license. Evidence links are optional and do not affect the response score directly.",
+      "options": [],
+      "source_anchor": "## Optional Evidence"
+    }
+  ]
+}

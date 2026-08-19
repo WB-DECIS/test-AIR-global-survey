@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "compound-gpid-active-state-v1",
+  "createdAt": "2026-08-19T13:27:56Z",
+  "updatedAt": "2026-08-19T13:45:02Z",
+  "workflow": "/cr-work",
+  "status": "completed",
+  "branch": "feat/global-survey-testing-app",
+  "plan": ".cg-docs/plans/2026-08-19-global-survey-question-testing-application.md",
+  "executionReport": ".cg-docs/work-reports/2026-08-19-global-survey-question-testing-application.md",
+  "currentPhase": null,
+  "evidenceStatus": [
+    {"id": "V1", "status": "passed", "artifact": "python3 -m pytest -q tests/test_source_import.py tests/test_survey_manifest.py"},
+    {"id": "V2", "status": "passed", "artifact": "uv run pytest -q tests/test_access.py"},
+    {"id": "V3", "status": "passed", "artifact": "uv run pytest -q tests/test_api.py tests/test_workflow.py tests/e2e/test_review_flow.py"},
+    {"id": "V4", "status": "passed", "artifact": "uv run pytest -q tests/test_storage.py tests/test_api.py"},
+    {"id": "V5", "status": "passed", "artifact": "uv run pytest -q tests/e2e/test_review_flow.py"},
+    {"id": "V6", "status": "passed", "artifact": "uv run pytest -q; uv run python -m compileall app scripts; pinned importer smoke test"}
+  ],
+  "unresolvedDecisions": [],
+  "artifactRefs": [],
+  "nextCommand": "/cg-review full"
+}

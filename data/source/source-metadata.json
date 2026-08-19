@@ -1,0 +1,18 @@
+{
+  "created": "2026-08-19",
+  "repository": "https://github.com/zander-prinsloo/AI-Readiness-of-NSOs",
+  "branch": "research/global-nso-ai-readiness-survey",
+  "commit": "fa031bae8ac7f85a88bc989846944b6363cf03e3",
+  "version": "0.1.0-draft",
+  "retrieved_at": "2026-08-19",
+  "files": {
+    "global-survey/instrument/global-nso-ai-readiness-survey-draft.md": {
+      "local_path": "data/source/global-nso-ai-readiness-survey-draft.md",
+      "sha256": "cd8946632c619d1e91bfea276b979de35ca3bad3c5cd22902a0e657029669b18"
+    },
+    "global-survey/instrument/response-codes.json": {
+      "local_path": "data/source/response-codes.json",
+      "sha256": "68f59f25b95548eb087a95edbf2af4298a64270c77cfdcf808f34ac485ffba1f"
+    }
+  }
+}

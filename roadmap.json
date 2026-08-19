@@ -12,6 +12,12 @@
           "title": "Survey questions are set. Now we will build the testing application.",
           "status": "in-progress",
           "plan": null
+        },
+        {
+          "id": "global-survey-question-testing-application",
+          "title": "Global survey question-testing application",
+          "status": "done",
+          "plan": ".cg-docs/plans/2026-08-19-global-survey-question-testing-application.md"
         }
       ]
     }
