@@ -24,5 +24,6 @@ os.environ.setdefault(
 )
 
 from app.main import create_app  # noqa: E402
+from a2wsgi import ASGIMiddleware  # noqa: E402
 
-app = create_app()
+app = ASGIMiddleware(create_app())

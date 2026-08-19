@@ -20,7 +20,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "20783f1a01a95336a4b9f9fd06fd4459"
+      "checksum": "80c4bddab2711bc96734364d8e001fc8"
     },
     ".agents/AGENTS.md": {
       "checksum": "33d4d40ca6883be80ec84cc824e0d35f"
@@ -1015,6 +1015,9 @@
     ".ruff_cache/.gitignore": {
       "checksum": "07813ad49b7c958916325086d422ca91"
     },
+    ".ruff_cache/0.16.3/17393708204673438284": {
+      "checksum": "2679f6a26bc838c7a03d4f88c43b8480"
+    },
     ".ruff_cache/0.16.3/2518130076266457295": {
       "checksum": "3ca54d623755f9413864d25cdc072437"
     },
@@ -1130,7 +1133,7 @@
       "checksum": "6fdd5ab82ca4ee89cde66706f5ade026"
     },
     "connect_app.py": {
-      "checksum": "3086695d1dd0669ee4cdc10c59164a31"
+      "checksum": "1caa202cd6ddd0ec2ba029f6629b39c3"
     },
     "data/README.md": {
       "checksum": "bcfb6c3e6ebda5ade9c040d1786dd7de"
@@ -1150,8 +1153,23 @@
     "data/survey-manifest.json": {
       "checksum": "c5ce29f144563a94e9b7a8e2e54611fa"
     },
+    "global_survey_testing_app.egg-info/PKG-INFO": {
+      "checksum": "7e0c422563876832b13e88f45aa049e4"
+    },
+    "global_survey_testing_app.egg-info/SOURCES.txt": {
+      "checksum": "927b7bfbc9d04e93be655ad25dae89be"
+    },
+    "global_survey_testing_app.egg-info/dependency_links.txt": {
+      "checksum": "68b329da9893e34099c7d8ad5cb9c940"
+    },
+    "global_survey_testing_app.egg-info/requires.txt": {
+      "checksum": "b522ca67f29bfe0a54f3c1f34a8d7f44"
+    },
+    "global_survey_testing_app.egg-info/top_level.txt": {
+      "checksum": "43d4bb0c877013a58f216d9abdc3b75e"
+    },
     "pyproject.toml": {
-      "checksum": "b34d529337d0bf70a07738450827c432"
+      "checksum": "51582dbe59fad4d4514fb0df03c8b6a2"
     },
     "requirements-dev.txt": {
       "checksum": "6b09420e071628f991b2932944313f55"
@@ -1253,7 +1271,7 @@
       "checksum": "b517f58d276c685610ed7a2f383c6670"
     },
     "uv.lock": {
-      "checksum": "505cae018ae4dc22a97629c14dd6d0d6"
+      "checksum": "17f9893ac0f476274084bc237d2b161f"
     }
   }
 }
